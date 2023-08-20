@@ -74,21 +74,28 @@ background-size: cover;
 .remember-forgot a:hover{
     text-decoration: underline;
 }
+.btn{
+    color: white;
+}
 .wrap .btn{
+    display: block;
+    text-align: center;
+    line-height: 44px;
+    text-decoration: none;
     width: 100%;
     height: 45px;
     border: none;
     outline: none;
     border-radius: 40px;
     background-color: #8a4fdd;
-    color: white;
     font-size: 16px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
     font-weight: 600;
-    transition: 0.3s ease-in-out all;
+    transition: .3s ease-in-out all;
+    
 }
-.wrap .btn:hover{
+.wrap .btn:hover {
     background-color: #fff;
     color: purple;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
